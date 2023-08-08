@@ -22,6 +22,9 @@
 import greeting from "@/components/molecules/greeting.vue";
 import titleStrike from "@/components/atoms/titleStrike.vue";
 
+import { useI18n } from "vue-i18n";
+const { t, locale } = useI18n({ useScope: "global" });
+
 import { useStore } from "@/store/store";
 const store = useStore();
 

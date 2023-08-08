@@ -43,7 +43,7 @@ const arrayEl = [
   {
     Html: {
       title: "technologies.html",
-      to: "/vue-js",
+      to: "/html",
     },
     js: {
       title: "technologies.js",

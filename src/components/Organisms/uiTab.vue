@@ -62,7 +62,7 @@ const props = defineProps({
 .tab
     padding: 30px
     max-width: 900px
-    width: 100vw
+    width: 100%
     display: grid
     grid-template-columns: 200px 1fr
     gap: 30px
@@ -79,6 +79,7 @@ const props = defineProps({
         background-color: #fff
         color: #333
         border-radius: 8px
+        margin: 0 auto
         &-dark
             border: 1px solid #fff
             background-color: #333

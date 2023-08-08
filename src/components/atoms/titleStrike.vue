@@ -46,11 +46,11 @@ const props = defineProps({
 <style lang="sass" scoped>
 .title
     margin-top: 20px
-    width: 90vw
-    font-size: 32px
+    width: 100%
+    font-size: 30px
     .strike-white
         display: flex
-        gap: 30px
+        gap: 15px
         align-items: center
         max-width: 1055px
         &::after
@@ -60,7 +60,7 @@ const props = defineProps({
             border-bottom: 1px solid #333
     .strike-black
         display: flex
-        gap: 30px
+        gap: 15px
         align-items: center
         max-width: 1055px
         &::after
@@ -74,11 +74,11 @@ const props = defineProps({
         color: white
 .title-right
     margin-top: 20px
-    width: 90vw
-    font-size: 32px
+    width: 100%
+    font-size: 30px
     .strike-white
         display: flex
-        gap: 30px
+        gap: 15px
         align-items: center
         max-width: 1055px
         &::before
@@ -88,7 +88,7 @@ const props = defineProps({
             border-bottom: 1px solid #333
     .strike-black
         display: flex
-        gap: 30px
+        gap: 15px
         align-items: center
         max-width: 1055px
         &::before
