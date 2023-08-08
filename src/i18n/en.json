@@ -9,15 +9,13 @@
   "author": "Author",
   "about": "About us",
   "article-why-us": {
-    "paragraph_1": "Road.map() is a service that allows you to quickly learn and find the necessary programming topics, and we also provide a brief description of them.",
-    "paragraph_2": "We do not teach programming, we only give the necessary vector for development, making it easier for a beginner.",
-    "paragraph_3": "Why we are better than other similar services:",
-    "paragraph_4": "Data feed structure,",
-    "paragraph_5": "Volume of various articles,",
-    "paragraph_6": "Convenient environment settings,",
-    "paragraph_7": "The absence of additional registrations and troubles.",
-    "paragraph_8": "This service is written in Vue js and is completely open source.",
-    "paragraph_9": "Why Vue? Vue is a progressive js framework, yet it takes an html first approach and is declarative. Vue is well suited for writing small startups and applications, while unlike svelte, it also feels good on medium-sized projects. As for large projects, corporate Angular and universal React are doing great there."
+    "title": "About our service",
+    "title-helper": "Small article about us.",
+    "paragraph_1": "Road.map() is a service that allows you to quickly learn and find relevant programming topics, and we also provide a brief description of them.",
+    "paragraph_2": "We don't teach programming, we just provide the necessary vector for development, making it easier for a beginner.",
+    "paragraph_3": "What makes us better than other similar services: the structure of data submission, the volume of various articles, the convenience of setting up the environment, the absence of additional registrations and troubles.",
+    "paragraph_4": "This service is written in Vue js and is completely open source. ",
+    "paragraph_5": "Why Vue? Vue is a progressive js framework, yet it uses an html first approach and is declarative. Vue is well suited for writing small startups and applications, while unlike svelte it feels good on medium-sized projects. What when it comes to large projects, corporate Angular and general-purpose React excel."
   },
   "greetings": {
     "article-greeting": "Road.map(Articles)",
