@@ -76,6 +76,7 @@ const props = defineProps({
     margin-top: 20px
     width: 100%
     font-size: 30px
+    font-weight: 300
     .strike-white
         display: flex
         gap: 15px

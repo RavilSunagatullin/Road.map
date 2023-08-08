@@ -18,9 +18,9 @@
     "paragraph_5": "Why Vue? Vue is a progressive js framework, yet it uses an html first approach and is declarative. Vue is well suited for writing small startups and applications, while unlike svelte it feels good on medium-sized projects. What when it comes to large projects, corporate Angular and general-purpose React excel."
   },
   "greetings": {
-    "article-greeting": "Road.map(Articles)",
+    "article-greeting": "Road.map (Articles)",
     "article-greeting-helper": "This page is a collection of all our articles",
-    "guides-greeting": "Road.map(Guides)",
+    "guides-greeting": "Road.map (Guides)",
     "guides-greeting-helper": "This page is a collection of all our guides"
   },
   "technologies": {
