@@ -50,6 +50,7 @@ const props = defineProps({
     font-size: 30px
     .strike-white
         display: flex
+        font-weight: 200
         gap: 15px
         align-items: center
         max-width: 1055px
@@ -76,9 +77,9 @@ const props = defineProps({
     margin-top: 20px
     width: 100%
     font-size: 30px
-    font-weight: 300
     .strike-white
         display: flex
+        font-weight: 200
         gap: 15px
         align-items: center
         max-width: 1055px
