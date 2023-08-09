@@ -46,10 +46,12 @@ const props = defineProps({
     text-align: center
 .heading-1
     font-size: 40px
+    font-weight: 300
     line-height: 170%
 .heading-3
     font-size: 32px
     line-height: 170%
+    font-weight: 300
 
 @media (max-width:800px)
     .greetings
