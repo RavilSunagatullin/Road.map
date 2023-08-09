@@ -6,6 +6,7 @@
       { link__white: store.lightTheme === false },
       { link__black: store.lightTheme === true },
     ]"
+    :style="{'text-align': textAlign}"
   >
     {{ label }}
   </router-link>
@@ -13,6 +14,7 @@
 
 <script setup>
 import { useStore } from "@/store/store";
+import { stringifyQuery } from "vue-router";
 const store = useStore();
 const props = defineProps({
   label: {
@@ -23,6 +25,10 @@ const props = defineProps({
     type: String,
     default: "/",
   },
+  textAlign:{
+    type:stringifyQuery,
+    default: "center",
+  }
 });
 </script>
 

@@ -2,20 +2,7 @@
   <div class="div">
     <titleStrike :title="$t(`${title}`)" :position="position" />
     <div :class="['elements', { 'elements-one': one_column }]">
-      <div
-        :class="[
-          'element',
-          { element__white: store.lightTheme === true },
-          { element__black: store.lightTheme === false },
-        ]"
-        v-for="element in elements"
-        :key="element.to"
-        @click="this.$router.push(element.to)"
-      >
-        <router-link class="link" :to="element.to">{{
-          $t(`${element.title}`)
-        }}</router-link>
-      </div>
+      <uiLink v-for="element in elements" :label="$t(`${element.title}`)" :to="element.to" textAlign="left"/>
     </div>
   </div>
 </template>
@@ -28,6 +15,7 @@ import { useI18n } from "vue-i18n";
 const { t } = useI18n({ useScope: "global" });
 
 import titleStrike from "@/components/atoms/titleStrike.vue";
+import uiLink from "@/components/atoms/uiLink.vue";
 
 const props = defineProps({
   title: {
@@ -88,4 +76,5 @@ const props = defineProps({
         color: white
 .link
   line-height: 160%
+  width: 100%
 </style>

@@ -62,6 +62,7 @@ const props = defineProps({
     .strike-black
         display: flex
         gap: 15px
+        font-weight: 200
         align-items: center
         max-width: 1055px
         &::after
@@ -91,6 +92,7 @@ const props = defineProps({
     .strike-black
         display: flex
         gap: 15px
+        font-weight: 200
         align-items: center
         max-width: 1055px
         &::before
