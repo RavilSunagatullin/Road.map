@@ -1,9 +1,15 @@
-<template></template>
+<template>
+    <div>
+        test
+    </div>
+</template>
 
-<script setup>
-import { useStore } from "@/store/store";
-const store = useStore();
-import { ref } from "vue";
+<script>
+    export default {
+        
+    }
 </script>
 
-<style lang="sass" scoped></style>
+<style lang="scss" scoped>
+
+</style>

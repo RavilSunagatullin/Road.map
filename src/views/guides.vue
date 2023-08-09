@@ -20,72 +20,11 @@ import greeting from "@/components/molecules/greeting.vue";
 import { useI18n } from "vue-i18n";
 const { t } = useI18n({ useScope: "global" });
 
-const arrayEl = [
-  {
-    frontend: {
-      title: "technologies.frontend",
-      to: "/frontend",
-    },
-    // backend: {
-    //   title: "technologies.backend",
-    //   to: "/backend",
-    // },
-    // mobileAndroid: {
-    //   title: "technologies.kotlin",
-    //   to: "/mobile-kotlin",
-    // },
-    // mobileSwift: {
-    //   title: "technologies.swift",
-    //   to: "/mobile-swift",
-    // },
-    // qa: {
-    //   title: "technologies.qa",
-    //   to: "/qa",
-    // },
-    // ux: {
-    //   title: "technologies.ux",
-    //   to: "/ux",
-    // },
-  },
-  {
-    Html: {
-      title: "technologies.html",
-      to: "/vue-js",
-    },
-    js: {
-      title: "technologies.js",
-      to: "/js",
-    },
-    Css: {
-      title: "technologies.css",
-      to: "/css",
-    },
-    // vue: {
-    //   title: "technologies.vue-js",
-    //   to: "/vue-js",
-    // },
-    // laravel: {
-    //   title: "technologies.laravel",
-    //   to: "/laravel",
-    // },
-    // kotlin: {
-    //   title: "technologies.kotlin",
-    //   to: "/kotlin",
-    // },
-    // swift: {
-    //   title: "technologies.swift",
-    //   to: "/swift",
-    // },
-    // react: {
-    //   title: "technologies.react",
-    //   to: "/react",
-    // },
-    // angular: {
-    //   title: "technologies.angular",
-    //   to: "/angular",
-    // },
-  },
-];
+import { useStore } from "@/store/store";
+const store = useStore();
+
+const arrayEl = store.mainGuidesTxt
+
 </script>
 
 <style lang="sass" scoped></style>
