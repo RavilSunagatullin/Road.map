@@ -2,7 +2,12 @@
   <div class="div">
     <titleStrike :title="$t(`${title}`)" :position="position" />
     <div :class="['elements', { 'elements-one': one_column }]">
-      <uiLink v-for="element in elements" :label="$t(`${element.title}`)" :to="element.to" textAlign="left"/>
+      <uiLink
+        v-for="element in elements"
+        :label="$t(`${element.title}`)"
+        :to="element.to"
+        textAlign="left"
+      />
     </div>
   </div>
 </template>

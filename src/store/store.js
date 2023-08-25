@@ -16,7 +16,7 @@ export const useStore = defineStore("store", {
         to: "/about",
       },
     },
-    mainGuidesTxt:[
+    mainGuidesTxt: [
       {
         frontend: {
           title: "technologies.frontend",
@@ -36,9 +36,9 @@ export const useStore = defineStore("store", {
           title: "technologies.css",
           to: "/css",
         },
-      }
+      },
     ],
-    frontendPageTxt:{
+    frontendPageTxt: {
       article_1: {
         title: "frontend-page.article_1-title",
         haveButton: false,
@@ -122,7 +122,7 @@ export const useStore = defineStore("store", {
         id: 7,
       },
     },
-    baseFrontedTxt:{
+    baseFrontedTxt: {
       article_1: {
         title: "base-frontend.article_1-title",
         haveButton: true,
@@ -154,7 +154,7 @@ export const useStore = defineStore("store", {
         id: 3,
       },
     },
-    cssPageTxt:{
+    cssPageTxt: {
       article_1: {
         title: "css.article_1-title",
         haveButton: false,
@@ -189,7 +189,7 @@ export const useStore = defineStore("store", {
         id: 3,
       },
     },
-    htmlPageTxt:{
+    htmlPageTxt: {
       article_1: {
         title: "html.article_1-title",
         haveButton: false,
@@ -236,7 +236,7 @@ export const useStore = defineStore("store", {
         id: 5,
       },
     },
-    jsPageTxt:{
+    jsPageTxt: {
       article_1: {
         title: "js.article_1-title",
         haveButton: false,
@@ -303,7 +303,7 @@ export const useStore = defineStore("store", {
         },
         id: 7,
       },
-    }
+    },
   }),
   getters: {},
   actions: {

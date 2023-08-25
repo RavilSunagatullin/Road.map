@@ -23,8 +23,7 @@ const { t } = useI18n({ useScope: "global" });
 import { useStore } from "@/store/store";
 const store = useStore();
 
-const arrayEl = store.mainGuidesTxt
-
+const arrayEl = store.mainGuidesTxt;
 </script>
 
 <style lang="sass" scoped></style>
