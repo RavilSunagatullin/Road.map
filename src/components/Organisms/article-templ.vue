@@ -1,9 +1,6 @@
 <template>
-   <div class="wrapper-main">
-    <greeting
-      :title="greetingTitle"
-      :description="greetingHelper"
-    />
+  <div class="wrapper-main">
+    <greeting :title="greetingTitle" :description="greetingHelper" />
     <div class="article">
       <titleStrike :title="$t(`${strikeTitle}`)" />
       <div
@@ -29,23 +26,23 @@ import { useStore } from "@/store/store";
 const store = useStore();
 
 const props = defineProps({
-    greetingTitle:{
-        type:String,
-        required:true
-    },
-    greetingHelper:{
-        type:String,
-        required:false
-    },
-    strikeTitle:{
-        type:String,
-        required:true
-    },
-    paragraphArray:{
-        type:Array,
-        required:true
-    }
-})
+  greetingTitle: {
+    type: String,
+    required: true,
+  },
+  greetingHelper: {
+    type: String,
+    required: false,
+  },
+  strikeTitle: {
+    type: String,
+    required: true,
+  },
+  paragraphArray: {
+    type: Array,
+    required: true,
+  },
+});
 </script>
 
 <style lang="sass" scoped>

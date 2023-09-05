@@ -14,7 +14,7 @@ const { t } = useI18n({ useScope: "global" });
 import { useStore } from "@/store/store";
 const store = useStore();
 
-const data = store.jsPageTxt
+const data = store.jsPageTxt;
 </script>
 
 <style lang="sass" scoped>

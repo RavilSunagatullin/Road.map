@@ -6,7 +6,7 @@
       { link__white: store.lightTheme === false },
       { link__black: store.lightTheme === true },
     ]"
-    :style="{'text-align': textAlign}"
+    :style="{ 'text-align': textAlign }"
   >
     {{ label }}
   </router-link>
@@ -25,10 +25,10 @@ const props = defineProps({
     type: String,
     default: "/",
   },
-  textAlign:{
-    type:stringifyQuery,
+  textAlign: {
+    type: stringifyQuery,
     default: "center",
-  }
+  },
 });
 </script>
 

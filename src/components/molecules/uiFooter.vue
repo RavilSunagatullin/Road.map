@@ -7,7 +7,7 @@
     ]"
   >
     <div class="footer__right">
-      <a href="https://github.com/RavilSunagatullin">
+      <a href="https://github.com/RavilSunagatullin/Road.map">
         <uiButton label="GitHub" class="github" />
       </a>
       <a href="https://vk.com/id497468593">
